@@ -61,7 +61,7 @@ const rl = readline.createInterface({
   output: process.stdout
 })
 
-rl.question('Введите ширину и высоту через пробел, или укажите имя_файла.json: ', async (props) => {
+rl.question('Введите высоту и ширину через пробел, или укажите имя_файла.json: ', async (props) => {
   const params = props.split(' ')
   if (params.length == 1) {
     try {
