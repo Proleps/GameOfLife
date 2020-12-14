@@ -78,7 +78,6 @@ rl.question('Введите высоту и ширину через пробел
     } catch (error) { console.log(error) }
   } else {
     if (!isNaN(params[0] + params[1])) {
-      console.log(isNaN(params[1]))
       const life = new GameOfLife({
         row: params[0],
         col: params[1]
